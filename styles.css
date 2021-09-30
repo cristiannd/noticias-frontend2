@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nanum+Myeongjo:wght@400;800&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  color: #FFF;
+  background-color: #000;
+}
+
+header {
+  height: 225px;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #BDD5EA;
+  border-bottom: 1px solid #BDD5EA;
+  padding: 10px 0px;
+  font-family: 'Nanum Myeongjo';
+}
+
+header h1 {
+  font-family: 'Playfair Display SC';
+  font-size: 125px;
+  display: flex;
+  justify-content: center;
+  font-weight: 100;
+}
+
+main {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tarjeta {
+  border: 2px solid #F7F7FF;
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  background-color: #586F7C;
+  color: #F7F7FF;
+  max-width: 1080px;
+  margin-bottom: 25px;
+}
+
+.tarjeta-izquierda {
+  width: 50%;
+  padding: 10px;
+}
+
+.tarjeta-izquierda-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+main article h3 {
+  font-family: 'Playfair Display SC';
+  font-weight: 700;
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+.fecha-articulo {
+  font-family: 'Playfair Display SC';
+  font-weight: 400;
+  font-size: 20px;
+  
+}
+
+.ubicacion-articulo {
+  font-family: 'Playfair Display SC';
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.descripcion-articulo {
+  font-family: 'Noto Sans';
+  text-align: justify;
+}
+
+.tarjeta-derecha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main article img {
+  width: 100%;
+  max-width: 750px; 
+  min-width: 500px;
+}
+
+footer {
+  background-color: #B8DBD9;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.copyright {
+  font-family: 'Playfair Display SC';
+}
+
+.nombres-dev {
+  font-family: 'Noto Sans' ;
+}
